@@ -25,7 +25,7 @@ El objetivo es brindar una solución ligera y fácil de implementar para detecta
   sudo apt install rsyslog
   sudo systemctl enable --now rsyslog
 
-🚀 Instalación
+## 🚀 Instalación
 
 # 1. Clonar el repositorio
 git clone git@github.com:Matiaslb14/06-Sentinel-IDS.git
