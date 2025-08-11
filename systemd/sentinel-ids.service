@@ -1,0 +1,16 @@
+[Unit]
+Description=Sentinel IDS - IDS/IPS ligero con Telegram
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/06-Sentinel-IDS
+Environment=SENTINEL_IDS_CONFIG=/opt/06-Sentinel-IDS/config.yaml
+ExecStart=/opt/06-Sentinel-IDS/.venv/bin/python /opt/06-Sentinel-IDS/src/ids.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,21 @@
+telegram:
+  bot_token: "REEMPLAZA_CON_TU_TOKEN"
+  chat_id: "REEMPLAZA_CON_TU_CHAT_ID"
+
+ips:
+  enable_blocking: true
+  block_seconds: 900
+  nftables_chain: "sentinel_drop"
+
+detectors:
+  ssh_bruteforce:
+    enabled: true
+    log_path: "/var/log/auth.log"
+    window_seconds: 120
+    fail_threshold: 6
+
+  syn_scan:
+    enabled: false
+    window_seconds: 60
+    port_threshold: 15
+    iface: "any"

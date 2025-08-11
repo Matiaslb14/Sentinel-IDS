@@ -1,0 +1,2 @@
+[2025-08-11 18:04:05] SSH Brute Force detectado - IP 127.0.0.1 superó 6 intentos fallidos en 120s.
+[2025-08-11 18:04:06] IPS: IP bloqueada - 127.0.0.1 bloqueada por 900s.
