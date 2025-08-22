@@ -106,15 +106,9 @@ sudo systemctl status sentinel-ids
 06-Sentinel-IDS/
 
 ├── src/                # Source code
-
 │   ├── detectors/      # Detection modules
-
 │   └── utils/          # Utility functions (alerts, IPS)
-
 ├── scripts/            # Helper scripts
-
 ├── logs/               # Log storage
-
 ├── config.yaml         # System configuration
-
 └── README.md
